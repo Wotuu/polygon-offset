@@ -1,4 +1,4 @@
-# Offset [![npm version](https://badge.fury.io/js/polygon-offset.svg)](https://badge.fury.io/js/polygon-offset) [![CircleCI](https://circleci.com/gh/w8r/polygon-offset.svg?style=shield)](https://circleci.com/gh/w8r/polygon-offset)
+# Offset [![npm version](https://badge.fury.io/js/polygon-offset.svg)](https://badge.fury.io/js/polygon-offset) [![TravisCI](https://travis-ci.org/w8r/polygon-offset.svg?branch=master)](https://travis-ci.org/w8r/polygon-offset)
 
 Small lib for polygon offsetting(margin/padding). See the [example](http://w8r.github.io/polygon-offset) of how it can be used with [Leaflet](http://leafletjs.com). It handles quite well oddly shaped and concave polygons.
 
@@ -50,6 +50,8 @@ var polyline = offset.data(points).offsetLine(5);
 
 ```
 
+Result will be array of linear rings.
+
 ## Dependencies
 
 [Martinez](https://github.com/w8r/martinez/) clipping algorithm
@@ -99,6 +101,3 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
